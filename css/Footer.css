@@ -1,0 +1,54 @@
+.footer {
+    border-top: 1px black solid;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.container-2 {
+    display: flex;
+    align-items : flex-start
+}
+
+.lbl {
+    color: darkblue;
+    font-size: 14px;
+}
+
+.kiri {
+    order: 1;
+    text-align: center;
+}
+
+.kanan {
+    order: 3;
+    text-align: right;
+}
+
+.tengah {
+    order: 2;
+    text-align: right;
+}
+
+.box-1 {
+    flex: 1;
+}
+
+.box-4 {
+    flex: 4;
+}
+
+.box-5 {
+    flex: 5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.medsos {
+    margin-top: -35px;
+    margin-left: 10px;
+}
