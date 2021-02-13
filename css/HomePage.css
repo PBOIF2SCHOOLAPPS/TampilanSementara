@@ -8,6 +8,32 @@
     margin-left: 50px;
 }
 
+.header-jumbotron {
+  display: flex;
+}
+
+.btn-login {
+  text-align: right;
+}
+.button-masuk {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  color: white;
+  border: 3px white solid;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin: 4px 2px;
+}
+
+.button-masuk:hover {
+  color: #68bfdf;
+  background-color: #fff;
+}
+
+
 .card {
     text-align: center;   
 }
@@ -18,7 +44,7 @@ h3 {
 
 @media (min-width: 992px) { 
     h3 {
-      margin-top: 20%;
+      margin-top: 17%;
     }
  }
 
@@ -60,8 +86,12 @@ h3 {
   order: 1;
 }
 
-.kanan {
+.tengah {
   order: 2;
+}
+
+.kanan {
+  order: 3;
 }
 
 p {
